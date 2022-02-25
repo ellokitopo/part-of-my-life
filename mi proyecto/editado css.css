@@ -1,0 +1,103 @@
+@font-face{
+    font-family: "Angelisa";
+    src:url(Angelisa.ttf);
+}
+
+h1{
+       
+    font-family: "Angelisa";
+    font-size: 70px;
+    background:-webkit-linear-gradient(top, rgba(224, 189, 189, 0.349), rgb(210, 211, 209));
+    width: 40%;
+    border-radius: 10px;
+    margin:15px auto;
+    text-align: center;
+    padding: 15px;
+    color:rgba(226, 8, 255, 0.945);
+    box-shadow: rgb(249, 84, 255) 5px 5px 10px;
+    text-shadow: rgb(201, 235, 11) 2px 2px 3px;
+
+}
+
+
+section{
+ width: 91%;
+ border-top: 1px dashed rgb(233, 123, 255);
+ margin: 15px auto;
+}
+
+body{
+    background:url(imagenes/corazones.jpg);
+}
+figure{
+    float: left;
+}
+figure img{
+    padding: 4px;
+    background-color: rgb(238, 232, 232);
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: gray  5px 5px 10px;
+    color:rgba(226, 8, 255, 0.945);
+    box-shadow: rgb(249, 84, 255) 5px 5px 10px;
+    text-shadow: rgb(201, 235, 11) 2px 2px 3px;
+}
+
+figure img:hover{
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5);
+}
+figcaption{
+    font-family:"Angelisa";
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgb(238, 232, 232);
+    color:rgba(226, 8, 255, 0.945);
+    box-shadow: rgb(249, 84, 255) 5px 5px 10px;
+    text-shadow: rgb(201, 235, 11) 2px 2px 3px;
+}
+footer{
+    clear: left;
+    padding-top: 100px;
+}
+footer p{
+    font-family:"Angelisa";
+    color:gray;
+    margin: 10px 8px;
+    text-align: center;
+    font-size: 60px;
+    background:linear-gradient(top, rgba(224, 189, 189, 0.349), rgb(210, 211, 209));
+    color:rgba(226, 8, 255, 0.945);
+    box-shadow: rgb(249, 84, 255) 5px 5px 10px;
+    text-shadow: rgb(201, 235, 11) 2px 2px 3px;
+    
+}
+#penultima{
+    margin-left:220px ;
+    
+}
+
+
+
+#mivideo{
+    font-family:"Angelisa";
+    color:gray;
+    text-align: center;
+    background:linear-gradient(top, rgb(233, 70, 219), rgb(210, 211, 209));
+    color:rgba(226, 8, 255, 0.945);
+    text-shadow: rgb(249, 84, 255) 5px 5px 10px;
+    box-shadow: rgba(248, 73, 239, 0.925)  5px 5px 10px;
+    border-radius: 10px;
+    margin:15px auto;
+    text-align: center;
+    padding: 15px;
+    width: 800px;
+    
+
+}
+
+
+    
